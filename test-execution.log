@@ -1,0 +1,25 @@
+2021-10-23 23:42:42.428  INFO 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Starting UserVisaTest using Java 1.8.0_261 on KMBM2023.local with PID 35609 (/Users/pvaishna/IdeaProjects/spring-selenium-automation/target/test-classes started by pvaishna in /Users/pvaishna/IdeaProjects/spring-selenium-automation)
+2021-10-23 23:42:42.431  INFO 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : No active profile set, falling back to default profiles: default
+2021-10-23 23:42:43.092  INFO 35609 --- [TestNG-tests-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 23:42:43.171  INFO 35609 --- [TestNG-tests-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2021-10-23 23:42:43.823  INFO 35609 --- [TestNG-tests-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-23 23:42:44.025  INFO 35609 --- [TestNG-tests-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-23 23:42:44.096  INFO 35609 --- [TestNG-tests-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 23:42:44.163  INFO 35609 --- [TestNG-tests-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 23:42:44.375  INFO 35609 --- [TestNG-tests-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 23:42:44.513  INFO 35609 --- [TestNG-tests-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-23 23:42:45.107  INFO 35609 --- [TestNG-tests-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 23:42:45.117  INFO 35609 --- [TestNG-tests-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 23:42:45.871  INFO 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Started UserVisaTest in 3.965 seconds (JVM running for 5.469)
+2021-10-23 23:42:46.562  INFO 35609 --- [TestNG-tests-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as /Users/pvaishna/.m2/repository/webdriver/chromedriver/mac64/94.0.4606.61/chromedriver
+2021-10-23 23:42:58.710  INFO 35609 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2021-10-23 23:43:02.506  INFO 35609 --- [TestNG-tests-1] c.p.t.s.page.visa.VisaRegistrationPage   : Setting Names Darren Spencer
+2021-10-23 23:43:31.094  INFO 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Request Confirmation # INFO: 8179497
+2021-10-23 23:43:31.125  WARN 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Request Confirmation # WARN: 8179497
+2021-10-23 23:43:32.853  INFO 35609 --- [TestNG-tests-1] c.p.t.s.page.visa.VisaRegistrationPage   : Setting Names Edward Gislason
+2021-10-23 23:43:35.247  INFO 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Request Confirmation # INFO: 1514035
+2021-10-23 23:43:35.277  WARN 35609 --- [TestNG-tests-1] c.p.t.s.visa.UserVisaTest                : Request Confirmation # WARN: 1514035
+2021-10-23 23:43:35.285  INFO 35609 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 23:43:35.286  INFO 35609 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-23 23:43:35.288  INFO 35609 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-23 23:43:35.290  INFO 35609 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
